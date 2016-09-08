@@ -1,0 +1,166 @@
+version 2
+run General-48-20160822-10:36:19-13100
+attr D lce
+attr F spr
+attr R lru
+attr a 0.8
+attr configname General
+attr datetime 20160822-10:36:19
+attr experiment General
+attr inifile hw5115/scenario_B/bus.ini
+attr iterationvars "$net=bus, $rep=0, $a=0.8, $F=spr, $D=lce, $R=lru, $window=60, $variance=0.05, $mytime=600"
+attr iterationvars2 "$net=bus, $rep=0, $a=0.8, $F=spr, $D=lce, $R=lru, $window=60, $variance=0.05, $mytime=600, $repetition=0"
+attr measurement "$net=bus, $rep=0, $a=0.8, $F=spr, $D=lce, $R=lru, $window=60, $variance=0.05, $mytime=600"
+attr mytime 600
+attr net bus
+attr network networks.${net=bus}_network
+attr processid 13100
+attr rep 0
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 48
+attr seedset 0
+attr variance 0.05
+attr window 60
+
+scalar . 	a 	0.8
+scalar . 	mytime 	600
+scalar . 	rep 	0
+scalar . 	variance 	0.05
+scalar . 	window 	60
+scalar bus_network.content_distribution 	repo-0 	9
+scalar bus_network.content_distribution 	client-0 	5
+scalar bus_network.content_distribution 	client-1 	8
+scalar bus_network.content_distribution 	client-2 	9
+scalar bus_network.content_distribution 	client-3 	0
+scalar bus_network.content_distribution 	client-4 	1
+scalar bus_network.content_distribution 	client-5 	7
+scalar bus_network.content_distribution 	client-6 	6
+scalar bus_network.content_distribution 	client-7 	2
+scalar bus_network.content_distribution 	client-8 	4
+scalar bus_network.content_distribution 	client-9 	3
+scalar bus_network.content_distribution 	repo-0_card 	100000
+scalar bus_network.content_distribution 	repo-0_price 	0
+scalar bus_network.statistics 	stabilization_time 	144
+scalar bus_network.statistics 	p_hit 	0.022787351625879
+scalar bus_network.statistics 	interests 	61660.5
+scalar bus_network.statistics 	data 	49712.4
+scalar bus_network.statistics 	hdistance 	5.0757629052439
+scalar bus_network.statistics 	avg_time 	0.008307792016
+scalar bus_network.statistics 	downloads 	119479
+scalar bus_network.statistics 	total_cost 	0
+scalar bus_network.statistics 	total_replicas 	100000
+scalar bus_network.statistics 	inner_hit 	0.07897622176282
+scalar bus_network.node[0].core_layer 	interests[0] 	11993
+scalar bus_network.node[0].core_layer 	data[0] 	11181
+scalar bus_network.node[0].core_layer 	repo_int[0] 	110043
+scalar bus_network.node[0].content_store 	p_hit[0] 	0.067789543900609
+scalar bus_network.node[0].content_store 	hits[0] 	813
+scalar bus_network.node[0].content_store 	misses[0] 	11180
+scalar bus_network.node[0].content_store 	decision_yes[0] 	11181
+scalar bus_network.node[0].content_store 	decision_no[0] 	0
+scalar bus_network.node[0].content_store 	decision_ratio[0] 	1
+scalar bus_network.node[1].core_layer 	interests[1] 	23268
+scalar bus_network.node[1].core_layer 	data[1] 	22388
+scalar bus_network.node[1].content_store 	p_hit[1] 	0.037863159704315
+scalar bus_network.node[1].content_store 	hits[1] 	881
+scalar bus_network.node[1].content_store 	misses[1] 	22387
+scalar bus_network.node[1].content_store 	decision_yes[1] 	22388
+scalar bus_network.node[1].content_store 	decision_no[1] 	0
+scalar bus_network.node[1].content_store 	decision_ratio[1] 	1
+scalar bus_network.node[2].core_layer 	interests[2] 	34234
+scalar bus_network.node[2].core_layer 	data[2] 	33303
+scalar bus_network.node[2].content_store 	p_hit[2] 	0.02710755389379
+scalar bus_network.node[2].content_store 	hits[2] 	928
+scalar bus_network.node[2].content_store 	misses[2] 	33306
+scalar bus_network.node[2].content_store 	decision_yes[2] 	33303
+scalar bus_network.node[2].content_store 	decision_no[2] 	0
+scalar bus_network.node[2].content_store 	decision_ratio[2] 	1
+scalar bus_network.node[3].core_layer 	interests[3] 	45210
+scalar bus_network.node[3].core_layer 	data[3] 	44219
+scalar bus_network.node[3].content_store 	p_hit[3] 	0.021831453218315
+scalar bus_network.node[3].content_store 	hits[3] 	987
+scalar bus_network.node[3].content_store 	misses[3] 	44223
+scalar bus_network.node[3].content_store 	decision_yes[3] 	44219
+scalar bus_network.node[3].content_store 	decision_no[3] 	0
+scalar bus_network.node[3].content_store 	decision_ratio[3] 	1
+scalar bus_network.node[4].core_layer 	interests[4] 	56253
+scalar bus_network.node[4].core_layer 	data[4] 	55227
+scalar bus_network.node[4].content_store 	p_hit[4] 	0.018025705295718
+scalar bus_network.node[4].content_store 	hits[4] 	1014
+scalar bus_network.node[4].content_store 	misses[4] 	55239
+scalar bus_network.node[4].content_store 	decision_yes[4] 	55227
+scalar bus_network.node[4].content_store 	decision_no[4] 	0
+scalar bus_network.node[4].content_store 	decision_ratio[4] 	1
+scalar bus_network.node[5].core_layer 	interests[5] 	67215
+scalar bus_network.node[5].core_layer 	data[5] 	66263
+scalar bus_network.node[5].content_store 	p_hit[5] 	0.014059361749609
+scalar bus_network.node[5].content_store 	hits[5] 	945
+scalar bus_network.node[5].content_store 	misses[5] 	66270
+scalar bus_network.node[5].content_store 	decision_yes[5] 	66263
+scalar bus_network.node[5].content_store 	decision_no[5] 	0
+scalar bus_network.node[5].content_store 	decision_ratio[5] 	1
+scalar bus_network.node[6].core_layer 	interests[6] 	78188
+scalar bus_network.node[6].core_layer 	data[6] 	77220
+scalar bus_network.node[6].content_store 	p_hit[6] 	0.012342047372998
+scalar bus_network.node[6].content_store 	hits[6] 	965
+scalar bus_network.node[6].content_store 	misses[6] 	77223
+scalar bus_network.node[6].content_store 	decision_yes[6] 	77220
+scalar bus_network.node[6].content_store 	decision_no[6] 	0
+scalar bus_network.node[6].content_store 	decision_ratio[6] 	1
+scalar bus_network.node[7].core_layer 	interests[7] 	89194
+scalar bus_network.node[7].core_layer 	data[7] 	88241
+scalar bus_network.node[7].content_store 	p_hit[7] 	0.010617306096823
+scalar bus_network.node[7].content_store 	hits[7] 	947
+scalar bus_network.node[7].content_store 	misses[7] 	88247
+scalar bus_network.node[7].content_store 	decision_yes[7] 	88241
+scalar bus_network.node[7].content_store 	decision_no[7] 	0
+scalar bus_network.node[7].content_store 	decision_ratio[7] 	1
+scalar bus_network.node[8].core_layer 	interests[8] 	100030
+scalar bus_network.node[8].core_layer 	data[8] 	99082
+scalar bus_network.node[8].content_store 	p_hit[8] 	0.0094371688493452
+scalar bus_network.node[8].content_store 	hits[8] 	944
+scalar bus_network.node[8].content_store 	misses[8] 	99086
+scalar bus_network.node[8].content_store 	decision_yes[8] 	99082
+scalar bus_network.node[8].content_store 	decision_no[8] 	0
+scalar bus_network.node[8].content_store 	decision_ratio[8] 	1
+scalar bus_network.node[9].core_layer 	interests[9] 	111020
+scalar bus_network.node[9].core_layer 	repo_load[9] 	110043
+scalar bus_network.node[9].core_layer 	data[9] 	0
+scalar bus_network.node[9].content_store 	p_hit[9] 	0.0088002161772654
+scalar bus_network.node[9].content_store 	hits[9] 	977
+scalar bus_network.node[9].content_store 	misses[9] 	110043
+scalar bus_network.node[9].content_store 	decision_yes[9] 	110043
+scalar bus_network.node[9].content_store 	decision_no[9] 	0
+scalar bus_network.node[9].content_store 	decision_ratio[9] 	1
+scalar bus_network.client[0] 	hdistance[0] 	8.9885776221444
+scalar bus_network.client[0] 	downloads[0] 	11994
+scalar bus_network.client[0] 	avg_time[0] 	0.016209060014
+scalar bus_network.client[1] 	hdistance[1] 	8.2201174621556
+scalar bus_network.client[1] 	downloads[1] 	12089
+scalar bus_network.client[1] 	avg_time[1] 	0.014645547083
+scalar bus_network.client[2] 	hdistance[2] 	7.3298725415717
+scalar bus_network.client[2] 	downloads[2] 	11847
+scalar bus_network.client[2] 	avg_time[2] 	0.012859393886
+scalar bus_network.client[3] 	hdistance[3] 	6.4637157735595
+scalar bus_network.client[3] 	downloads[3] 	11906
+scalar bus_network.client[3] 	avg_time[3] 	0.011109042318
+scalar bus_network.client[4] 	hdistance[4] 	5.5851063829787
+scalar bus_network.client[4] 	downloads[4] 	12032
+scalar bus_network.client[4] 	avg_time[4] 	0.009332428204
+scalar bus_network.client[5] 	hdistance[5] 	4.6950863435388
+scalar bus_network.client[5] 	downloads[5] 	11987
+scalar bus_network.client[5] 	avg_time[5] 	0.007531824095
+scalar bus_network.client[6] 	hdistance[6] 	3.771320754717
+scalar bus_network.client[6] 	downloads[6] 	11925
+scalar bus_network.client[6] 	avg_time[6] 	0.005675444333
+scalar bus_network.client[7] 	hdistance[7] 	2.8418107408335
+scalar bus_network.client[7] 	downloads[7] 	11973
+scalar bus_network.client[7] 	avg_time[7] 	0.003801880214
+scalar bus_network.client[8] 	hdistance[8] 	1.9054122836783
+scalar bus_network.client[8] 	downloads[8] 	11788
+scalar bus_network.client[8] 	avg_time[8] 	0.001913300017
+scalar bus_network.client[9] 	hdistance[9] 	0.95660914726085
+scalar bus_network.client[9] 	downloads[9] 	11938
+scalar bus_network.client[9] 	avg_time[9] 	0

@@ -1,0 +1,120 @@
+version 2
+run General-87-20160824-09:15:45-9702
+attr D ffc0.1
+attr F spr
+attr R lru
+attr a 0.9
+attr configname General
+attr datetime 20160824-09:15:45
+attr experiment General
+attr inifile hw5115/scenario_C/omnetp.ini
+attr iterationvars "$net=dtelecom, $rep=10, $a=0.9, $F=spr, $D=ffc0.1, $R=lru, $window=60, $variance=0.05, $mytime=600"
+attr iterationvars2 "$net=dtelecom, $rep=10, $a=0.9, $F=spr, $D=ffc0.1, $R=lru, $window=60, $variance=0.05, $mytime=600, $repetition=0"
+attr measurement "$net=dtelecom, $rep=10, $a=0.9, $F=spr, $D=ffc0.1, $R=lru, $window=60, $variance=0.05, $mytime=600"
+attr mytime 600
+attr net dtelecom
+attr network networks.${net=dtelecom}_network
+attr processid 9702
+attr rep 10
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 87
+attr seedset 10
+attr variance 0.05
+attr window 60
+
+scalar . 	a 	0.9
+scalar . 	mytime 	600
+scalar . 	rep 	10
+scalar . 	variance 	0.05
+scalar . 	window 	60
+scalar dtelecom_network.content_distribution 	repo-0 	16
+scalar dtelecom_network.content_distribution 	repo-1 	23
+scalar dtelecom_network.content_distribution 	repo-2 	58
+scalar dtelecom_network.content_distribution 	repo-3 	28
+scalar dtelecom_network.content_distribution 	repo-4 	42
+scalar dtelecom_network.content_distribution 	repo-5 	46
+scalar dtelecom_network.content_distribution 	repo-6 	6
+scalar dtelecom_network.content_distribution 	repo-7 	18
+scalar dtelecom_network.content_distribution 	repo-8 	25
+scalar dtelecom_network.content_distribution 	repo-9 	10
+scalar dtelecom_network.content_distribution 	repo-10 	44
+scalar dtelecom_network.content_distribution 	repo-11 	54
+scalar dtelecom_network.content_distribution 	repo-12 	24
+scalar dtelecom_network.content_distribution 	repo-13 	31
+scalar dtelecom_network.content_distribution 	repo-14 	65
+scalar dtelecom_network.content_distribution 	repo-15 	27
+scalar dtelecom_network.content_distribution 	client-0 	46
+scalar dtelecom_network.content_distribution 	client-1 	30
+scalar dtelecom_network.content_distribution 	client-2 	8
+scalar dtelecom_network.content_distribution 	client-3 	49
+scalar dtelecom_network.content_distribution 	client-4 	66
+scalar dtelecom_network.content_distribution 	client-5 	58
+scalar dtelecom_network.content_distribution 	client-6 	32
+scalar dtelecom_network.content_distribution 	client-7 	40
+scalar dtelecom_network.content_distribution 	client-8 	42
+scalar dtelecom_network.content_distribution 	client-9 	45
+scalar dtelecom_network.content_distribution 	client-10 	33
+scalar dtelecom_network.content_distribution 	client-11 	28
+scalar dtelecom_network.content_distribution 	client-12 	3
+scalar dtelecom_network.content_distribution 	client-13 	57
+scalar dtelecom_network.content_distribution 	client-14 	50
+scalar dtelecom_network.content_distribution 	client-15 	17
+scalar dtelecom_network.content_distribution 	client-16 	59
+scalar dtelecom_network.content_distribution 	client-17 	48
+scalar dtelecom_network.content_distribution 	client-18 	23
+scalar dtelecom_network.content_distribution 	client-19 	22
+scalar dtelecom_network.content_distribution 	client-20 	67
+scalar dtelecom_network.content_distribution 	client-21 	62
+scalar dtelecom_network.content_distribution 	client-22 	56
+scalar dtelecom_network.content_distribution 	client-23 	55
+scalar dtelecom_network.content_distribution 	client-24 	53
+scalar dtelecom_network.content_distribution 	client-25 	36
+scalar dtelecom_network.content_distribution 	client-26 	51
+scalar dtelecom_network.content_distribution 	client-27 	37
+scalar dtelecom_network.content_distribution 	client-28 	54
+scalar dtelecom_network.content_distribution 	client-29 	4
+scalar dtelecom_network.content_distribution 	client-30 	31
+scalar dtelecom_network.content_distribution 	client-31 	9
+scalar dtelecom_network.content_distribution 	repo-0_card 	6240
+scalar dtelecom_network.content_distribution 	repo-0_price 	0
+scalar dtelecom_network.content_distribution 	repo-1_card 	6300
+scalar dtelecom_network.content_distribution 	repo-1_price 	0
+scalar dtelecom_network.content_distribution 	repo-2_card 	6351
+scalar dtelecom_network.content_distribution 	repo-2_price 	0
+scalar dtelecom_network.content_distribution 	repo-3_card 	6069
+scalar dtelecom_network.content_distribution 	repo-3_price 	0
+scalar dtelecom_network.content_distribution 	repo-4_card 	6322
+scalar dtelecom_network.content_distribution 	repo-4_price 	0
+scalar dtelecom_network.content_distribution 	repo-5_card 	6183
+scalar dtelecom_network.content_distribution 	repo-5_price 	0
+scalar dtelecom_network.content_distribution 	repo-6_card 	6236
+scalar dtelecom_network.content_distribution 	repo-6_price 	0
+scalar dtelecom_network.content_distribution 	repo-7_card 	6223
+scalar dtelecom_network.content_distribution 	repo-7_price 	0
+scalar dtelecom_network.content_distribution 	repo-8_card 	6295
+scalar dtelecom_network.content_distribution 	repo-8_price 	0
+scalar dtelecom_network.content_distribution 	repo-9_card 	6273
+scalar dtelecom_network.content_distribution 	repo-9_price 	0
+scalar dtelecom_network.content_distribution 	repo-10_card 	6196
+scalar dtelecom_network.content_distribution 	repo-10_price 	0
+scalar dtelecom_network.content_distribution 	repo-11_card 	6130
+scalar dtelecom_network.content_distribution 	repo-11_price 	0
+scalar dtelecom_network.content_distribution 	repo-12_card 	6287
+scalar dtelecom_network.content_distribution 	repo-12_price 	0
+scalar dtelecom_network.content_distribution 	repo-13_card 	6300
+scalar dtelecom_network.content_distribution 	repo-13_price 	0
+scalar dtelecom_network.content_distribution 	repo-14_card 	6333
+scalar dtelecom_network.content_distribution 	repo-14_price 	0
+scalar dtelecom_network.content_distribution 	repo-15_card 	6262
+scalar dtelecom_network.content_distribution 	repo-15_price 	0
+scalar dtelecom_network.statistics 	p_hit 	0.26045539121555
+scalar dtelecom_network.statistics 	interests 	589924.02941176
+scalar dtelecom_network.statistics 	data 	334271.54411765
+scalar dtelecom_network.statistics 	hdistance 	1.8121111766753
+scalar dtelecom_network.statistics 	avg_time 	0.019625053789
+scalar dtelecom_network.statistics 	downloads 	17383346
+scalar dtelecom_network.statistics 	total_cost 	0
+scalar dtelecom_network.statistics 	total_replicas 	100000
+scalar dtelecom_network.statistics 	inner_hit 	0.49555787476128
