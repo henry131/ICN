@@ -4,7 +4,7 @@ README for hw5115 Individual Project for Imperial College MSc Computing Science,
 Title: Future Internet: Information Centric Networks
 Author: Henry Williams
 Supervisor: Professor Kin K. Leung
-Email: hw5115@ic.ac.uk
+Email: henryhamiltonwilliams@gmail.com
 Date Created: 12th August 2016
 --------------------------------------------------------------------------------------------------------
 
