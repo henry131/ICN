@@ -18,8 +18,7 @@ Download the latest version of ccnSim into a directory to be subsequently termed
 
 Unzip the hw5115 archive into $CCNSIM_DIR (v.important it is in the initial directory)
 
-We have to install ccnSim, please follow the ccnSim instruction on INSTALL.txt using these
-files as your ccnSim version (improves on v0.4-Alpha).
+We have to install ccnSim, please follow the ccnSim instruction on INSTALL.txt using the latest version (or use v0.4-Alpha if there are subsequent compatibility issues).
 
 Please note that we must install Omnet++ (dependancy of ccnSim).
 
@@ -35,7 +34,7 @@ and you need to copy ctopology.h to $OMNET_DIR/include/omnetpp
 
 [No lost functionality relating to ccnSim (other network tools)]
 
-PLEASE REFER TO THE CCNSIM MANUAL v3.0 (AVAILABLE ON ccnSim WEBSITE) IF PROBLEMS ARISE OR EMAIL ME
+PLEASE REFER TO THE CCNSIM MANUAL v3.0 (AVAILABLE ON ccnSim WEBSITE) IF PROBLEMS ARISE
 
 ccnSim website: http://perso.telecom-paristech.fr/~drossi/index.php?n=Software.CcnSim
 
